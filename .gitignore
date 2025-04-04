@@ -1,37 +1,110 @@
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
 
-# Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
 
-# Logs and databases #
-######################
-*.log
-*.sql
-*.sqlite
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu Jack-J97</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4a90e2;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        nav {
+            background-color: #333;
+            text-align: center; 
+            padding: 10px 0; 
+        }
+        nav a {
+            display: inline-block; 
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            margin: 0 10px; 
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s; 
+        }
+        .container:hover {           
+            transform: scale(1.02); 
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
+        }
+        .intro {
+            text-align: center;
+        }
+        .intro img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            transition: transform 0.3s; 
+        }
+        .intro img:hover {
+            transform: rotate(10deg); 
+        }
+        .intro h2 {
+            margin: 10px 0;
+        }
+        .intro p {
+            margin: 5px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Giới thiệu Jack-J97</h1>
+    </header>
 
-# OS generated files #
-######################
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+    <nav>
+        <a href="thanhvien.html">Thành Viên</a>
+        <a href="#about">Giới Thiệu</a>
+        <a href="amnhac.html" target="_blank">Âm Nhạc</a>
+        <a href="https://vietnamnet.vn/jack-j97-it-tai-nhieu-tat-su-nghiep-truot-dai-vi-scandal-tinh-ai-2364857.html">Sự kiện nổi bật</a>
+    </nav>
+
+    <div class="container">
+        <div class="intro">
+            <img src="https://img.tripi.vn/cdn-cgi/image/width=700,height=700/https://gcs.tripi.vn/public-tripi/tripi-feed/img/474114lMU/hinh-anh-jack-dep-trai-cute-dang-yeu-nhat-2021_013741456.jpg" alt="Jack 97">
+            <h2>Jack-J97</h2>
+            <p>Jack-J97, tên thật là Trịnh Trần Phương Tuấn, là một nghệ sĩ trẻ nổi tiếng trong làng nhạc Việt Nam.</p>
+            <p>Biệt danh: Jack</p>
+            <p>Ngày sinh: 12 tháng 4 năm 1997</p>
+            <p>Thành tích: Nhiều giải thưởng âm nhạc và hàng triệu lượt nghe trên các nền tảng trực tuyến.</p>
+            <p>Jack nổi bật với những bản hit như "Hồng Nhan", "Bạc Phận", và "Sóng Gió".</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Giới thiệu về Jack-J97. Tất cả các quyền được bảo lưu.</p>
+    </footer>
+</body>
+</html>
